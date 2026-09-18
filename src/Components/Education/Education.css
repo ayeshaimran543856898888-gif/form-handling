@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-2{
+   width: 100%;
+  height: 700px; 
+  background-color: rgb(28, 28, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.Education-container{
+    width: 60%;
+    height: auto;
+    background-color: white;
+}
+
+.education-heading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(57, 57, 57);
+}
+
+.line{
+    border: 1px solid rgb(152, 151, 151);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.education-row{
+    display: flex;
+    gap: 10px;
+}
+
+.education-field{
+    width: 50%;
+}
+
+.Graduation-date{
+    width: 50%;
+}
+
+.education-field h3,
+.Graduation-date h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: rgb(57, 57, 57);
+}
+
+.Graduation-date input{
+     margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+     border: 1px solid rgb(173, 170, 170);
+}
+.education-field input{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+     border: 1px solid rgb(173, 170, 170);
+}
+
+.education-row2{
+    display: flex;
+    gap: 10px;
+}
+
+.School-address{
+    width: 90%;
+}
+
+.country-address{
+    width: 90%;
+    margin-top: 50px;
+}
+
+.School-address h3,
+.country-address h3{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(57, 57, 57);
+}
+.School-address p,
+.country-address p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.School-address p{
+    margin-top: 10px;
+}
+
+.School-address input{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.country-address input{
+   margin-left: 20px;
+   margin-right: 10px;
+   width: 90%;
+   height: 40px;
+   box-sizing: border-box; 
+}
+
+.Education-country{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Education-country select{
+    width: 98%;
+    height: 40px;
+     border: 1px solid rgb(173, 170, 170);
+}
+
+.line-1{
+    border: 1px solid rgb(229, 224, 224);
+    margin-top: 20px;
+
+}
+
+
+.education-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+
+.education-btn1{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E7F2;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+.education-btn2{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #2E69FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .container-2{
+        height: auto;
+        padding: 20px 0;
+    }
+    .Education-container{
+        width: 95%;
+    }
+    .education-row{
+        flex-direction: column;
+    }
+
+    .education-field{
+        width: 90%;
+    }
+    .Graduation-date{
+        width: 90%;
+    }
+
+     .education-row2{
+        flex-direction: column;
+    }
+
+    .School-address{
+        margin-top: 30px;
+    }
+    .school-row2{
+        width: 60%;
+    }
+    .school-row2 input{
+        width: 60%;
+    }
+
+    .country-address{
+        width: 90%;
+    }
+    .Education-country{
+        width: 82%;
+        margin-bottom: 10px;
+    }
+    .education-btn{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+}

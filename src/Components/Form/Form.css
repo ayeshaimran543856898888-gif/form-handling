@@ -1,0 +1,568 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 100%;
+  height: 1600px;
+  background-color: rgb(28, 28, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-container{
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+.form-h1{
+    color: #2c3345;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-p{
+    color: rgb(7, 8, 8);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.line{
+    border: 1px solid rgb(190, 186, 186);
+    margin-top: 30px;
+}
+
+
+
+.form-box-h3{
+    color: #2c3345;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.column1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-left: 30px;
+} 
+
+input {
+    width: 90%;
+    height: 38px;
+}
+
+.year select{
+    margin-right: 20px;
+}
+
+span{
+    display: block;
+    margin-top: 7px;
+    color: #788391;
+    font-size: 20px;
+}
+
+.column2{
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+}
+
+.month,
+.day,
+.year{
+  display: flex;
+  flex-direction: column;
+}
+
+.month select,
+.day select,
+.year select{
+    width: 210px;
+    height: 40px;
+}
+
+.month h4,
+.day h4,
+.year h4{
+    font-size: 13px;
+    font-weight: normal;
+    color: #2c3345;
+}
+
+.form-gender-h3{
+    color: #2c3345;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+
+.form-gender{
+    display: flex;
+    gap: 20px;
+}
+
+.form-gender label{
+    display: flex;
+    align-items: center;
+}
+
+.form-gender input{
+    width: 20px;
+    height: 22px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.citizen-h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    color: #2c3345;
+}
+
+.citizen select{
+    margin-left: 130px;
+    width: 70%;
+    height: 38px;
+}
+
+.Contact-container{
+    display: flex;
+    gap: 10px;
+}
+
+
+.contact,
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.contact h3,
+.email h3{
+    margin-bottom: 10px;
+    color: #2c3345;
+}
+
+.email-h4{
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #2c3345;
+}
+
+
+.contact input,
+.email input{
+    width: 300px;
+    height: 40px;
+}
+
+.contact ::placeholder{
+    font-size: 15px;
+    color: #2c3345;
+}
+
+.email ::placeholder{
+    font-size: 15px;
+    color: #2c3345;
+}
+
+.mailing{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.mailing h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3345;
+}
+
+.mailing h4{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 200;
+    color: #7d7e7f;
+}
+
+.mailing2 input{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 87%;
+}
+
+.mailing2-h4{
+    font-size: 18px;
+    font-weight: 200;
+    color: #7d7e7f;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.city-state{
+    display: flex;
+    gap: 20px;
+    width: 87%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.city-state-heading {
+    display: flex;
+    gap: 330px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #7d7e7f;
+}
+
+.postal-code{
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.postal-code-h4{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #2c3345;
+    font-weight: 200;
+}
+
+.contact-container{
+   display: flex;
+}
+
+.emergency-contact-heading h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #2c3345;
+    margin-bottom: 15px;
+}
+
+.name-inputs{
+    display: flex;
+    margin-left: 30px;
+}
+
+.name-inputs p{
+    margin-top: 5px;
+    color: #2c3345;
+}
+
+
+.emergency-contact-heading input{
+   width: 80%;
+   height: 35px;
+   border: 1px solid #ccc;
+   padding: 10px;
+   box-sizing: border-box;
+   font-size: 18px;
+}
+
+.contact-relationship{
+    width: 65%;
+    margin-right: 25px;
+}
+
+.contact-relationship h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2c3345;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact-relationship input{
+    height: 35px;
+    margin-top: 5px;
+}
+
+
+.Contact-container1{
+    display: flex;
+    gap: 10px;
+}
+
+
+.contact-1,
+.email-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.contact-1 h3,
+.email-1 h3{
+    margin-bottom: 10px;
+    color: #2c3345;
+}
+
+.email-h4{
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #2c3345;
+}
+
+
+.contact-1 input,
+.email-1 input{
+    width: 317px;
+    height: 40px;
+}
+
+.contact-1 ::placeholder{
+    font-size: 15px;
+    color: #2c3345;
+}
+
+.email-1 ::placeholder{
+    font-size: 15px;
+    color: #2c3345;
+}
+
+.Language h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2c3345;
+}
+
+.form-language label{
+    display: flex;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.form-language input{
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.language-h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #6b6c6e;
+    margin-top: 20px;
+}
+
+.other-language h3{
+    font-size: 30px;
+    color: #2c3345;
+}
+
+.other-language input{
+    width: 90%;
+    height: 120px;
+    margin-left: 30px;
+}
+
+.line{
+    border: 1px solid #a3a4a5;
+}
+
+.form-Btn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: #2e69FF;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .container {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .form-container{
+        width: 95%;
+    }
+
+    .form-h1{
+        font-size: 28px;
+    }
+
+    .form-box input{
+        border: 1px solid rgb(99, 98, 98);
+    }
+
+    .form-p{
+        font-size: 16px;
+    }
+    
+
+    .column1 {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+
+    .column2,
+    .Contact-container1,
+    .contact-container,
+    .name-inputs{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .month select,
+    .day select,
+    .year select{
+      width: 90%;
+    }
+
+
+    .contact input,
+    .email input,
+    .contact-1 input,
+    .email-1 input{
+        width: 90%;
+    }
+
+    .citizen-h2{
+        margin-left: 20px;
+    }
+
+    .citizen select{
+        width: calc(98% -20px);
+        margin-left: 20px;
+        box-sizing: border-box;
+        font-size: 7px;
+    }
+
+    .Contact-container,
+    .Contact-container1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact input,
+    .email input,
+    .contact-1 input,
+    .email-1 input{
+       width: 90%;
+       border: 1px solid rgb(118, 115, 115);
+    } 
+
+    .mailing input{
+        border: 1px solid rgb(95, 94, 94);
+    }
+
+
+    .mailing2 input{
+        width: 85%;
+        margin-left: 30px;
+    }
+
+
+    .city-state{
+        display: flex;
+        gap: 10px;
+        width: 90%;
+        margin-left: 30px;
+    }
+    .city-state input{
+        width: 47%;
+        border: 1px solid rgb(74, 72, 72);
+    }
+
+    .city-state-heading{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 30px;
+        gap: 10px;
+    }
+
+    .city-state-h4{
+        width: 50%;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+
+    .postal-code{
+        width: 95%;
+    }
+
+    .postal-code-h4{
+        margin-left: 30px;
+    }
+
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .name-inputs{
+        flex-direction: column;
+    }
+
+    .emergency-contact-heading input{
+        width: 90%;
+    }
+
+    .contact-relationship{
+        width: 95%;
+        margin-left: 28px;
+    }
+
+    .contact-relationship input{
+        border: 1px solid rgb(118, 116, 116);
+    }
+
+
+    .form-language input{
+        margin-left: 20px;
+    }
+
+    .other-language input{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .form-Btn{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+}
